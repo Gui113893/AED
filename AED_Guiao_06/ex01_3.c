@@ -28,7 +28,10 @@ int D(int m, int n){
 }
 int main(){
     initializeArray();
-    int n = D(2, 2);
-    printf("%d\n", n);
-    return 0;
+    for (int i = 0; i < 15; i++) {
+        for (int j = 0; j < 15; j++) {
+            int d = D(i, j);
+            printf("m: %2d n: %2d - %d\n", i, j, d);
+        }
+    }
 }
