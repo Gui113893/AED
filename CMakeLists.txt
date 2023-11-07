@@ -16,4 +16,8 @@ add_executable(AED
         AED_Guiao_07/Guiao_07_Ficheiros_para_os_Estudantes/01_STACK_and_QUEUE_example/IntegersStack.c
         AED_Guiao_07/Guiao_07_Ficheiros_para_os_Estudantes/02_DATE_and_PERSON/Date.c
         AED_Guiao_07/Guiao_07_Ficheiros_para_os_Estudantes/02_DATE_and_PERSON/Person.c
-        AED_Guiao_07/Guiao_07_Ficheiros_para_os_Estudantes/02_DATE_and_PERSON/Tests.c)
+        AED_Guiao_07/Guiao_07_Ficheiros_para_os_Estudantes/02_DATE_and_PERSON/Tests.c
+        AED_Guiao_08/Guiao_08_Ficheiros_para_os_estudantes/Person.c
+        AED_Guiao_08/Guiao_08_Ficheiros_para_os_estudantes/Date.c
+        AED_Guiao_08/Guiao_08_Ficheiros_para_os_estudantes/PersonSet.c
+        AED_Guiao_08/Guiao_08_Ficheiros_para_os_estudantes/Tests.c)

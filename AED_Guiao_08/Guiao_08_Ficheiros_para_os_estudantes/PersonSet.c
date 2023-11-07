@@ -92,9 +92,8 @@ static void append(PersonSet *ps, Person *p) {
   // COMPLETE ...
   if (ps->size == ps->capacity){
       Person** newArray = (Person**)(Person*)realloc(ps->array, sizeof(Person*) * ps->capacity*2);
-      if (newArray == NULL) {
-          free(ps->array);
-          free(newArray);
+      if (ps->array == NULL){
+          free(ps);
       }
       ps->array = newArray;
   }
@@ -168,7 +167,12 @@ PersonSet *PersonSetUnion(const PersonSet *ps1, const PersonSet *ps2) {
 
   // COMPLETE ...
     ps->capacity = ps1->capacity + ps2->capacity;
+    free(ps->array);
     ps->array = (Person**)(Person*) malloc(sizeof(Person*) * ps->capacity);
+    if (ps->array == NULL){
+        free(ps);
+        return NULL;
+    }
 
     for (int i = 0; i < ps1->size; i++) {
         ps->array[i] = ps1->array[i];
@@ -179,7 +183,6 @@ PersonSet *PersonSetUnion(const PersonSet *ps1, const PersonSet *ps2) {
         PersonSetAdd(ps, ps2->array[i-size]);
     }
 
-
   return ps;
 }
 
@@ -188,8 +191,26 @@ PersonSet *PersonSetUnion(const PersonSet *ps1, const PersonSet *ps2) {
 // NOTE: memory is allocated.  Client must call PersonSetDestroy!
 PersonSet *PersonSetIntersection(const PersonSet *ps1, const PersonSet *ps2) {
   // COMPLETE ...
+    PersonSet* ps = (PersonSet*) malloc(sizeof(PersonSet));
+    if (ps == NULL) return ps;
 
-  return NULL;
+    ps->capacity = ps1->capacity + ps2->capacity;
+    ps->array = (Person**)(Person*) malloc(sizeof(Person) * ps->capacity);
+    if (ps->array == NULL){
+        free(ps);
+        return NULL;
+    }
+
+    ps->size = 0;
+    for (int i = 0; i < ps1->size; i++) {
+        for (int j = 0; j < ps2->size; j++) {
+            if (ps1->array[i] == ps2->array[j]){
+                ps->array[ps->size] = ps2->array[j];
+                ps->size++;
+            }
+        }
+    }
+    return ps;
 }
 
 // Return a NEW PersonSet with the set difference of *ps1 and *ps2.
@@ -197,15 +218,57 @@ PersonSet *PersonSetIntersection(const PersonSet *ps1, const PersonSet *ps2) {
 // NOTE: memory is allocated.  Client must call PersonSetDestroy!
 PersonSet *PersonSetDifference(const PersonSet *ps1, const PersonSet *ps2) {
   // COMPLETE ...
+    PersonSet* ps = (PersonSet*) malloc(sizeof(PersonSet));
+    if (ps == NULL) return ps;
 
-  return NULL;
+    ps->capacity = ps1->capacity + ps2->capacity;
+    ps->array = (Person**)(Person*) malloc(sizeof(Person) * ps->capacity);
+    if (ps->array == NULL){
+        free(ps);
+        return NULL;
+    }
+
+    int count;
+    for (int i = 0; i < ps1->size; i++) {
+        count = 0;
+        for (int j = 0; j < ps2->size; j++) {
+            if (ps1->array[i] != ps2->array[j]){
+                count++;
+            }
+
+            if (count == ps2->size){
+                PersonSetAdd(ps, ps1->array[i]);
+            }
+        }
+    }
+
+    for (int i = 0; i < ps2->size; i++) {
+        count = 0;
+        for (int j = 0; j < ps1->size; j++) {
+            if (ps1->array[i] != ps2->array[j]){
+                count++;
+            }
+
+            if (count == ps1->size){
+                PersonSetAdd(ps, ps2->array[i]);
+            }
+        }
+    }
+    return ps;
 }
 
 // Return true iff *ps1 is a subset of *ps2.
 int PersonSetIsSubset(const PersonSet *ps1, const PersonSet *ps2) {
   // COMPLETE ...
+    int count = 0;
+    for (int i = 0; i < ps1->size; i++) {
+        if (PersonSetContains(ps2, ps1->array[i]->id)){
+            count++;
+        }
+    }
 
-  return 0;
+    if (count == ps1->size) return 1;
+    return 0;
 }
 
 // Return true if the two sets contain exactly the same elements.
@@ -213,6 +276,5 @@ int PersonSetEquals(const PersonSet *ps1, const PersonSet *ps2) {
   // You may call PersonSetIsSubset here!
 
   // COMPLETE ...
-
-  return 0;
+  return (PersonSetIsSubset(ps1, ps2) && PersonSetIsSubset(ps2, ps1));
 }

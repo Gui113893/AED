@@ -27,12 +27,12 @@ Person *PersonCreate(const char *fname, const char *lname, int yy, int mm,
     if (p == NULL) return NULL;
     Date d = {yy, mm, dd};
     p->birthDate = d;
-    p->firstName = (char*)malloc( (strlen(fname)+1)*sizeof(char));
+    p->firstName = (char*)malloc( (strlen(fname))*sizeof(char));
     if (p->firstName == NULL){
         free(p);
         return NULL;
     }
-    p->lastName = (char*)malloc((strlen(lname)+1)*sizeof(char));
+    p->lastName = (char*)malloc((strlen(lname))*sizeof(char));
     if (p->lastName == NULL){
         free(p);
         return NULL;
@@ -51,6 +51,7 @@ void PersonDestroy(Person **pp) {
 
   // EDIT ...
   Person* p = *pp;
+  lastID--;
   free(p->lastName);
   free(p->firstName);
   free(p);
