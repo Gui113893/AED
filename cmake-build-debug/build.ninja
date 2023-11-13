@@ -139,6 +139,48 @@ build CMakeFiles/AED.dir/AED_Guiao_08/Guiao_08_Ficheiros_para_os_estudantes/Test
   OBJECT_DIR = CMakeFiles/AED.dir
   OBJECT_FILE_DIR = CMakeFiles/AED.dir/AED_Guiao_08/Guiao_08_Ficheiros_para_os_estudantes
 
+build CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/Date.c.o: C_COMPILER__AED_unscanned_Debug /home/guipc/Desktop/LEI/2ºAno/1ºSemestre/AED/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/Date.c || cmake_object_order_depends_target_AED
+  DEP_FILE = CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/Date.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/AED.dir
+  OBJECT_FILE_DIR = CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes
+
+build CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/Person.c.o: C_COMPILER__AED_unscanned_Debug /home/guipc/Desktop/LEI/2ºAno/1ºSemestre/AED/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/Person.c || cmake_object_order_depends_target_AED
+  DEP_FILE = CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/Person.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/AED.dir
+  OBJECT_FILE_DIR = CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes
+
+build CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/PersonSet.c.o: C_COMPILER__AED_unscanned_Debug /home/guipc/Desktop/LEI/2ºAno/1ºSemestre/AED/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/PersonSet.c || cmake_object_order_depends_target_AED
+  DEP_FILE = CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/PersonSet.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/AED.dir
+  OBJECT_FILE_DIR = CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes
+
+build CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/SortedList.c.o: C_COMPILER__AED_unscanned_Debug /home/guipc/Desktop/LEI/2ºAno/1ºSemestre/AED/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/SortedList.c || cmake_object_order_depends_target_AED
+  DEP_FILE = CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/SortedList.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/AED.dir
+  OBJECT_FILE_DIR = CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes
+
+build CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/SortedListTest1.c.o: C_COMPILER__AED_unscanned_Debug /home/guipc/Desktop/LEI/2ºAno/1ºSemestre/AED/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/SortedListTest1.c || cmake_object_order_depends_target_AED
+  DEP_FILE = CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/SortedListTest1.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/AED.dir
+  OBJECT_FILE_DIR = CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes
+
+build CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/SortedListTest2.c.o: C_COMPILER__AED_unscanned_Debug /home/guipc/Desktop/LEI/2ºAno/1ºSemestre/AED/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/SortedListTest2.c || cmake_object_order_depends_target_AED
+  DEP_FILE = CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/SortedListTest2.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/AED.dir
+  OBJECT_FILE_DIR = CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes
+
+build CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/Tests.c.o: C_COMPILER__AED_unscanned_Debug /home/guipc/Desktop/LEI/2ºAno/1ºSemestre/AED/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/Tests.c || cmake_object_order_depends_target_AED
+  DEP_FILE = CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/Tests.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/AED.dir
+  OBJECT_FILE_DIR = CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target AED
@@ -147,7 +189,7 @@ build CMakeFiles/AED.dir/AED_Guiao_08/Guiao_08_Ficheiros_para_os_estudantes/Test
 #############################################
 # Link the executable AED
 
-build AED: C_EXECUTABLE_LINKER__AED_Debug CMakeFiles/AED.dir/AED_Guiao_06/ex01_1.c.o CMakeFiles/AED.dir/AED_Guiao_06/ex01_2.c.o CMakeFiles/AED.dir/AED_Guiao_06/ex01_3.c.o CMakeFiles/AED.dir/AED_Guiao_05/ex01.c.o CMakeFiles/AED.dir/AED_Guiao_06/ex02.c.o CMakeFiles/AED.dir/AED_Guiao_07/Guiao_07_Ficheiros_para_os_Estudantes/01_STACK_and_QUEUE_example/01_example.c.o CMakeFiles/AED.dir/AED_Guiao_07/Guiao_07_Ficheiros_para_os_Estudantes/01_STACK_and_QUEUE_example/IntegersQueue.c.o CMakeFiles/AED.dir/AED_Guiao_07/Guiao_07_Ficheiros_para_os_Estudantes/01_STACK_and_QUEUE_example/IntegersStack.c.o CMakeFiles/AED.dir/AED_Guiao_07/Guiao_07_Ficheiros_para_os_Estudantes/02_DATE_and_PERSON/Date.c.o CMakeFiles/AED.dir/AED_Guiao_07/Guiao_07_Ficheiros_para_os_Estudantes/02_DATE_and_PERSON/Person.c.o CMakeFiles/AED.dir/AED_Guiao_07/Guiao_07_Ficheiros_para_os_Estudantes/02_DATE_and_PERSON/Tests.c.o CMakeFiles/AED.dir/AED_Guiao_08/Guiao_08_Ficheiros_para_os_estudantes/Person.c.o CMakeFiles/AED.dir/AED_Guiao_08/Guiao_08_Ficheiros_para_os_estudantes/Date.c.o CMakeFiles/AED.dir/AED_Guiao_08/Guiao_08_Ficheiros_para_os_estudantes/PersonSet.c.o CMakeFiles/AED.dir/AED_Guiao_08/Guiao_08_Ficheiros_para_os_estudantes/Tests.c.o
+build AED: C_EXECUTABLE_LINKER__AED_Debug CMakeFiles/AED.dir/AED_Guiao_06/ex01_1.c.o CMakeFiles/AED.dir/AED_Guiao_06/ex01_2.c.o CMakeFiles/AED.dir/AED_Guiao_06/ex01_3.c.o CMakeFiles/AED.dir/AED_Guiao_05/ex01.c.o CMakeFiles/AED.dir/AED_Guiao_06/ex02.c.o CMakeFiles/AED.dir/AED_Guiao_07/Guiao_07_Ficheiros_para_os_Estudantes/01_STACK_and_QUEUE_example/01_example.c.o CMakeFiles/AED.dir/AED_Guiao_07/Guiao_07_Ficheiros_para_os_Estudantes/01_STACK_and_QUEUE_example/IntegersQueue.c.o CMakeFiles/AED.dir/AED_Guiao_07/Guiao_07_Ficheiros_para_os_Estudantes/01_STACK_and_QUEUE_example/IntegersStack.c.o CMakeFiles/AED.dir/AED_Guiao_07/Guiao_07_Ficheiros_para_os_Estudantes/02_DATE_and_PERSON/Date.c.o CMakeFiles/AED.dir/AED_Guiao_07/Guiao_07_Ficheiros_para_os_Estudantes/02_DATE_and_PERSON/Person.c.o CMakeFiles/AED.dir/AED_Guiao_07/Guiao_07_Ficheiros_para_os_Estudantes/02_DATE_and_PERSON/Tests.c.o CMakeFiles/AED.dir/AED_Guiao_08/Guiao_08_Ficheiros_para_os_estudantes/Person.c.o CMakeFiles/AED.dir/AED_Guiao_08/Guiao_08_Ficheiros_para_os_estudantes/Date.c.o CMakeFiles/AED.dir/AED_Guiao_08/Guiao_08_Ficheiros_para_os_estudantes/PersonSet.c.o CMakeFiles/AED.dir/AED_Guiao_08/Guiao_08_Ficheiros_para_os_estudantes/Tests.c.o CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/Date.c.o CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/Person.c.o CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/PersonSet.c.o CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/SortedList.c.o CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/SortedListTest1.c.o CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/SortedListTest2.c.o CMakeFiles/AED.dir/AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/Tests.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/AED.dir
   POST_BUILD = :

@@ -20,4 +20,11 @@ add_executable(AED
         AED_Guiao_08/Guiao_08_Ficheiros_para_os_estudantes/Person.c
         AED_Guiao_08/Guiao_08_Ficheiros_para_os_estudantes/Date.c
         AED_Guiao_08/Guiao_08_Ficheiros_para_os_estudantes/PersonSet.c
-        AED_Guiao_08/Guiao_08_Ficheiros_para_os_estudantes/Tests.c)
+        AED_Guiao_08/Guiao_08_Ficheiros_para_os_estudantes/Tests.c
+        AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/Date.c
+        AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/Person.c
+        AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/PersonSet.c
+        AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/SortedList.c
+        AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/SortedListTest1.c
+        AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/SortedListTest2.c
+        AED_Guiao_09/Guiao_09_Ficheiros_para_os_Estudantes/Tests.c)
