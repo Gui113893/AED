@@ -1,3 +1,0 @@
-/home/guipc/Desktop/LEI/2ºAno/1ºSemestre/AED/cmake-build-debug/CMakeFiles/AED.dir
-/home/guipc/Desktop/LEI/2ºAno/1ºSemestre/AED/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/guipc/Desktop/LEI/2ºAno/1ºSemestre/AED/cmake-build-debug/CMakeFiles/rebuild_cache.dir
