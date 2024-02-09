@@ -1,5 +1,5 @@
 # AED - (Algoritmos e Estruturas de Dados)
-# OS - (Operating Systems)
+# ADC - (Algorithms & Data Structures)
 
 ### Final Grade: 15/20
 
