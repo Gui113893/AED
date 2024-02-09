@@ -22,8 +22,8 @@ For more information: [AED-Universidade de Aveiro](https://www.ua.pt/pt/uc/12281
 
 The workspace contains two main projects:
 
-* `AED_Project1_ImageProcessing`: Project that contains a main script (**image8bit.c**) that can process an 8-bit image.
-* `AED_Project2_Graphs`: Project that contains scripts that can create and manipulate graphs and to do topological sorting in three different ways, as well. 
+* `AED_Project1_ImageProcessing`: Project that contains a main script (**image8bit.c**) that can process an 8-bit image. (18.93/20)
+* `AED_Project2_Graphs`: Project that contains scripts that can create and manipulate graphs and to do topological sorting in three different ways, as well. (17.92/20)
 
 For more information about how to run this projects, read the **Makefile** corresponding to each project. For the general information, see the `Enunciado.pdf` file in each folder.
 
