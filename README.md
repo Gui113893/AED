@@ -26,3 +26,5 @@ The workspace contains two main projects:
 * `AED_Project2_Graphs`: Project that contains scripts that can create and manipulate graphs and to do topological sorting in three different ways, as well. 
 
 For more information about how to run this projects, read the **Makefile** corresponding to each project. For the general information, see the `Enunciado.pdf` file in each folder.
+
+Both projects done with: [Jorge Domingues](https://github.com/JorgeGuiDomingues)
